@@ -1,17 +1,22 @@
 import React, {useState, useEffect} from 'react';
 import Modal from './Modal';
 
+
 const array = [1,2,3,4,5,6,78,9]
 
-const Card = ({title, shuffleArray}) => {
+
+const Card = ({title}) => {
+    console.log()
     const [isShowModal, setIsShowModal] = useState(false);
-    const [cards, setCards] = useState([]);
+    const [id, setId] = useState(0);
+
     const showModal = (bool) => {
         setIsShowModal(bool)
     }
-    useEffect(()=> {
-        setCards(shuffleArray(array))
-    }, [])
+    const changeId = () => {
+        setId(id++)
+    }
+
     return <div>
         <button onClick={() => {
             showModal(true)
@@ -20,7 +25,7 @@ const Card = ({title, shuffleArray}) => {
         </button>
         {isShowModal&&<Modal
             showModal = {showModal}
-            cards = {cards}
+            changeId = {changeId}
         />}
     </div>
 }
