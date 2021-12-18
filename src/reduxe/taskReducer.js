@@ -10,9 +10,10 @@ let initialState = {
 export const taskReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'CHANGE_TASK_ID': {
+            debugger
             return {
                 ...state,
-                [action.payload]: state[action.payload]++
+                [action.payload]: ++state[action.payload]
             }
         }
         default:

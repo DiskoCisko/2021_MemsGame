@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Modal = ({showModal, cards, changeId}) => {
+const Modal = ({showModal, cards, changeId, task, taskName}) => {
     const hideModal = () => {
         showModal(false)
-        changeId()
+        changeId(taskName)
     }
     return <div>
         <h1>Hi</h1>
@@ -11,6 +11,9 @@ const Modal = ({showModal, cards, changeId}) => {
         <button onClick={() => {
             hideModal()
         }}>
+        <p>
+            {task.task}
+        </p>
             X
         </button>
     </div>
