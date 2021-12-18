@@ -1,9 +1,12 @@
 import React from 'react';
 
-const Modal = ({showModal, cards, changeId, task, taskName}) => {
+const Modal = ({showModal, cards, changeId, task, taskName, id, maxId, restId}) => {
     const hideModal = () => {
         showModal(false)
-        changeId(taskName)
+        debugger
+        if (id === maxId) {
+            restId(taskName)
+        } else changeId(taskName)
     }
     return <div>
         <h1>Hi</h1>

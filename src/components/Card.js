@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Modal from './Modal';
 
 
-const Card = ({title, task, changeId, taskName}) => {
+const Card = ({title, task, changeId, taskName, restId, id, maxId}) => {
     
     const [isShowModal, setIsShowModal] = useState(false);
 
@@ -19,8 +19,11 @@ const Card = ({title, task, changeId, taskName}) => {
         {isShowModal&&<Modal
             showModal = {showModal}
             changeId = {changeId}
+            restId = {restId}
             task = {task}
             taskName = {taskName}
+            id = {id}
+            maxId={maxId}
         />}
     </div>
 }

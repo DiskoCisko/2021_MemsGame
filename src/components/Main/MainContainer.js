@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import {changeId} from './../../reduxe/action';
+import {changeId, restId} from './../../reduxe/action';
 import Card from '../Card.js';
 
-import {task_1} from '../../data/tasks';
+import {tasks} from '../../data/tasks';
 // const TASKNAME = 
 //     {
 //         task_1: "task_1",
@@ -23,13 +23,16 @@ const TASKNAME =
         "task_6",
     ]
 
-const MainContainer = ({tasksId, changeId}) => {
+const MainContainer = ({tasksId, changeId, restId}) => {
     const card = TASKNAME.map((item, index)=> {
         return <Card 
             title={index + 1}
             taskName = {item} 
             changeId = {changeId}
-            task = {task_1[tasksId[item]]}
+            restId = {restId}
+            id = {tasksId[item]}
+            maxId = {tasks[item].length - 1}
+            task = {tasks[item][tasksId[item]]}
             key={index}
             />
     })
@@ -45,4 +48,4 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps, {changeId})(MainContainer);
+export default connect(mapStateToProps, {changeId, restId})(MainContainer);
