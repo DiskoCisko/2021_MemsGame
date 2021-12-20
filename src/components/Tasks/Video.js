@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Task_5 = ({task}) => {
-    return <p>
+    return <div>
         {task.task}
-    </p>
+    </div>
 }
 export default Task_5;

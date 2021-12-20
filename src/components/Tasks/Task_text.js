@@ -2,8 +2,11 @@ import React from 'react';
 
 const Task_text = ({task}) => {
 
-    return <p>
-        {task.task}
-    </p>
+    return <div>
+        {task.img&&<img src={task.img}/>}
+        <p>
+            {task.task}
+        </p>
+    </div>
 }
 export default Task_text;
