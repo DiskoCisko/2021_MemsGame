@@ -2,7 +2,6 @@ import React from 'react';
 import Question from './Question';
 const Task_6 = ({task}) => {
     const questions = task.qs.map((item, index) => {
-        debugger
         return <Question
             key={index}
             title = {item.title}
