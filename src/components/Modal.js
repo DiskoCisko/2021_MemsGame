@@ -3,6 +3,9 @@ import Images from './Tasks/Images';
 import Video from './Tasks/Video';
 import Victorina from './Tasks/Victorina';
 import Task_text from './Tasks/Task_text';
+import Question from './Tasks/Question';
+
+import { video, singleQuize, images, quize } from '../data/task_type';
 const Modal = ({showModal, changeId, task, taskName, id, maxId, restId}) => {
     const hideModal = () => {
         showModal(false)
@@ -12,19 +15,26 @@ const Modal = ({showModal, changeId, task, taskName, id, maxId, restId}) => {
     }
     const modalType = () => {
         switch (task.type) {
-        case "video": {
+        case video: {
             return <Video 
                 task = {task}
             />
         }
-        case "images": {
+        case images: {
             return <Images 
                 task = {task}
             />
         }
-        case "victorina": {
+        case quize: {
             return <Victorina 
                 task = {task}
+            />
+        }
+        case singleQuize: {
+            return <Question 
+                title = {task.title}
+                text = {task.text}
+                ans = {task.ans}
             />
         }
         default: 

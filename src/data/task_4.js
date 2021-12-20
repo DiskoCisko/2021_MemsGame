@@ -1,4 +1,4 @@
-export const singleQuize = "singleQuize"; 
+import { singleQuize } from "./task_type";
 const task_4 = [
     {
         type: singleQuize,
