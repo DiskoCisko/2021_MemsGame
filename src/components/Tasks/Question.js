@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-const Question = ({title, text, ans}) => {
+const Question = ({title, text, ans, author}) => {
     const [isShowAns, setIsShowAns] = useState(false)
     const question = text.map((item, index) => {
         return <li key={index}>{item}</li>
@@ -10,6 +10,9 @@ const Question = ({title, text, ans}) => {
             <ul>
                 {question}
             </ul>
+            <div>
+                <p><i>{author}</i></p>
+            </div>
             <button onClick={() => {
                 setIsShowAns(true)
             }}>

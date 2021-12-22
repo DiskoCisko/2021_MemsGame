@@ -35,6 +35,7 @@ const Modal = ({showModal, changeId, task, taskName, id, maxId, restId}) => {
                 title = {task.title}
                 text = {task.text}
                 ans = {task.ans}
+                author={task.author}
             />
         }
         default: 
