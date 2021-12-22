@@ -48,7 +48,7 @@ const task_3 = [
     {
         type: images,
         img: [
-            'https://lh3.googleusercontent.com/proxy/NnUdC8haAR_6CSWd442DQ1LurqthkaXKzOyraSVit-M4ndokOIJGcrEosEJZdr8JG7QEniR-_EzNdThfW9PBwVFyTJ4iYgmUeEJLYehLKIw',
+            'https://www.film.ru/sites/default/files/styles/thumb_1024x450/public/movies/frames/49036494-1144592.JPG',
             'https://www.kinonews.ru/insimgs/2021/shotimg/shotimg102068_1.jpg',
             'https://www.kino-teatr.ru/movie/kadr/142958/1014182.jpg',
             
