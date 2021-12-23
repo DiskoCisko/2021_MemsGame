@@ -1,0 +1,60 @@
+.modal {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; /* см. ниже */
+    align-items: center;
+    z-index: 99;
+    /* Чтобы окно не прилипало к границе
+    браузера установим отступы */
+    padding:30px 0;
+}
+
+.modal__window {
+    background-color: white;
+    min-width: 600px;
+    max-width: 100%;
+    overflow: visible;
+    margin: 50px 0;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 10px 20px;
+}
+
+.modal__wrap {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 100%;
+    min-height: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__shadow {
+    position: fixed;
+    border:none;
+    display: block;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -98;
+    opacity: 0.6;
+    background-color: black;
+    pointer-events: auto;
+}
+.modal__btn {
+    text-align: right;
+}

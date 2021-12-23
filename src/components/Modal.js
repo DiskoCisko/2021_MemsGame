@@ -5,6 +5,8 @@ import Victorina from './Tasks/Victorina';
 import Task_text from './Tasks/Task_text';
 import Question from './Tasks/Question';
 
+import './modal.css';
+
 import { video, singleQuize, images, quize } from '../data/task_type';
 const Modal = ({showModal, changeId, task, taskName, id, maxId, restId}) => {
     const hideModal = () => {
@@ -44,14 +46,18 @@ const Modal = ({showModal, changeId, task, taskName, id, maxId, restId}) => {
                 />
     }
 }
-    return <div>
-        <h1>Hi</h1>
-        {modalType()}
-        <button onClick={() => {
-            hideModal()
-        }}>
-            X
-        </button>
+    return <div className='modal'>
+    <div className='modal__shadow'></div>
+        <div className='modal__wrap'>
+            <div className='modal__window'>
+            <button className='modal__btn' onClick={() => {
+                    hideModal()
+                }}>
+                    X
+                </button>
+                {modalType()} 
+            </div>
+        </div>
     </div>
 }
 
