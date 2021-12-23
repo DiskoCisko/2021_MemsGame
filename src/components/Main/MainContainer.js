@@ -4,15 +4,9 @@ import {changeId, restId} from './../../reduxe/action';
 import Card from '../Card.js';
 
 import {tasks} from '../../data/tasks';
-// const TASKNAME = 
-//     {
-//         task_1: "task_1",
-//         task_2: "task_2",
-//         task_3: "task_3",
-//         task_4: "task_4",
-//         task_5: "task_5",
-//         task_6: "task_6",
-//     }
+
+import './cards.css';
+
 const TASKNAME = 
     [
         "task_1",
@@ -36,13 +30,12 @@ const MainContainer = ({tasksId, changeId, restId}) => {
             key={index}
             />
     })
-    return <div>
+    return <div className='cards'>
                 {card}
         </div>
 }
 
 const mapStateToProps = (state) => {
-    debugger
     return {
         tasksId: state.tasksId,
     }

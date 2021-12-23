@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Modal from './Modal';
-
+import './card.css';
 
 const Card = ({title, task, changeId, taskName, restId, id, maxId}) => {
     
@@ -10,8 +10,8 @@ const Card = ({title, task, changeId, taskName, restId, id, maxId}) => {
         setIsShowModal(bool)
     }
 
-    return <div>
-        <button onClick={() => {
+    return <div >
+        <button className='card' onClick={() => {
             showModal(true)
         }}>
             {title}
