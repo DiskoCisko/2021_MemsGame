@@ -71,3 +71,38 @@
     background: rgb(131,58,180);
     transition: 0.3s;
 }
+@media(max-width: 900px) {
+    .modal__window {
+        
+        min-width: 600px;
+        max-width: 90%;
+        
+    }
+}
+@media(max-width: 650px) {
+    .modal__window {
+        
+        min-width: 60%;
+        max-width: 80%;
+        
+    }
+    
+}
+@media(max-width: 1250px) {
+    iframe {
+        max-width: 99%;
+        height: 500px;
+    } 
+}
+@media(max-width: 800px) {
+    iframe {
+        max-width: 99%;
+        height: 300px;
+    } 
+}
+@media(max-width: 400px) {
+    iframe {
+        max-width: 99%;
+        height: 200px;
+    } 
+}

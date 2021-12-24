@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Task_5 = ({task}) => {
-    return <div>
+    return <div className='video'>
         {task.task}
     </div>
 }

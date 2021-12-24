@@ -9,11 +9,11 @@ const Task_3 = ({task}) => {
     const ans = task.ans.map((item, index) => {
         return <li key={index}>{item}</li>
     })
-    return <div>
+    return <div >
         {task.task&&<p>
             {task.task}
         </p>}
-        <div>
+        <div className='wrap__img'>
             {img} 
         </div>
         <button className='modal__btn' onClick={() => {

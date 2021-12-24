@@ -22,3 +22,11 @@ body {
 li {
     list-style: none;
 }
+@media(max-width: 1200px) {
+    body {
+        font-size: 15px;
+    }
+    button {
+        font-size: 15px;
+    }
+}
