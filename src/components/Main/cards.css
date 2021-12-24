@@ -1,4 +1,11 @@
 .cards {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    
+}
+.title {
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
 }

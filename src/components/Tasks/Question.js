@@ -13,12 +13,12 @@ const Question = ({title, text, ans, author}) => {
             <div>
                 <p><i>{author}</i></p>
             </div>
-            <button onClick={() => {
+            <button className='modal__btn' onClick={() => {
                 setIsShowAns(true)
             }}>
                 Ответ
             </button>
-            {isShowAns&&<span>{ans}</span>}
+            {isShowAns&&<p>{ans}</p>}
     </div>
 }
 

@@ -16,7 +16,7 @@ const Task_3 = ({task}) => {
         <div>
             {img} 
         </div>
-        <button onClick={() => {
+        <button className='modal__btn' onClick={() => {
             setIsShowAns(true)
         }}>
             Ответы

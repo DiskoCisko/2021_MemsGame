@@ -17,14 +17,15 @@
 }
 
 .modal__window {
-    background-color: white;
+    background-color: #fff;
     min-width: 600px;
-    max-width: 100%;
+    max-width: 95%;
     overflow: visible;
     margin: 50px 0;
     flex-shrink: 0;
     flex-grow: 0;
     padding: 10px 20px;
+    border-radius: 50px;
 }
 
 .modal__wrap {
@@ -37,6 +38,7 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    font-size: 35px;
 }
 
 .modal__shadow {
@@ -51,10 +53,20 @@
     overflow: hidden;
     pointer-events: none;
     z-index: -98;
-    opacity: 0.6;
-    background-color: black;
+    opacity: 0.4;
+    background-color: #939597;
     pointer-events: auto;
 }
 .modal__btn {
-    text-align: right;
+    font-weight: 300;
+    font-size: 30px;
+    border: 2px solid #333537;;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.modal__btn:hover {
+    color: #fff;
+    background: rgb(131,58,180);
+    transition: 0.3s;
 }

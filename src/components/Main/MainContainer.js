@@ -30,9 +30,12 @@ const MainContainer = ({tasksId, changeId, restId}) => {
             key={index}
             />
     })
-    return <div className='cards'>
+    return <div>
+    <h1 className='title'>2021</h1>
+        <div className='cards'>
                 {card}
         </div>
+    </div>
 }
 
 const mapStateToProps = (state) => {
