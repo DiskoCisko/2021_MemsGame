@@ -19,3 +19,6 @@ body {
     align-items: center;
     font-size: 30px;
 }
+li {
+    list-style: none;
+}

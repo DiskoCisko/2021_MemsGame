@@ -1,5 +1,6 @@
 import React from 'react';
 import Question from './Question';
+import './quize.css';
 const Task_6 = ({task}) => {
     const questions = task.qs.map((item, index) => {
         return <Question
@@ -9,8 +10,8 @@ const Task_6 = ({task}) => {
             ans = {item.ans}
         />
     })
-    return <div>
-        <img src={task.img}/>
+    return <div className='quize'>
+        <img className='quize__img' src={task.img}/>
         <p>
             {task.task}
         </p>

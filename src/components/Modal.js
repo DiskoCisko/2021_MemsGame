@@ -1,7 +1,7 @@
 import React from 'react';
 import Images from './Tasks/Images';
 import Video from './Tasks/Video';
-import Victorina from './Tasks/Victorina';
+import Victorina from './Tasks/Quize';
 import Task_text from './Tasks/Task_text';
 import Question from './Tasks/Question';
 

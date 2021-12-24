@@ -1,0 +1,8 @@
+.quize {
+    display: flex;
+    flex-direction: column;
+}
+.quize__img {
+    align-self: center;
+    max-width: 400px;
+}

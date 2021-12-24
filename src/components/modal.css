@@ -8,7 +8,8 @@
     -webkit-overflow-scrolling: touch;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center; /* см. ниже */
+    justify-content: flex-start;
+    margin: auto;
     align-items: center;
     z-index: 99;
     /* Чтобы окно не прилипало к границе
