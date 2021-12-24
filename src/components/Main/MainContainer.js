@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { connect } from 'react-redux';
 import {changeId, restId} from './../../reduxe/action';
 import Card from '../Card.js';
 import Dice from '../Dice';
-import {tasks} from '../../data/tasks';
+import {tasks, inintialMessage} from '../../data/tasks';
+import Modal from '../Modal';
 
 import './cards.css';
 
@@ -18,6 +19,10 @@ const TASKNAME =
     ]
 
 const MainContainer = ({tasksId, changeId, restId}) => {
+    const showModal = (bool) => {
+        setIsShowModal(bool)
+    }
+    const [isModalShow, setIsShowModal] =  useState(true); 
     const card = TASKNAME.map((item, index)=> {
         return <Card 
             title={index + 1}
@@ -36,6 +41,10 @@ const MainContainer = ({tasksId, changeId, restId}) => {
                 {card}
         </div>
         <Dice/>
+        {isModalShow&&<Modal
+            showModal = {showModal}
+            task = {inintialMessage}
+        />}
     </div>
 }
 

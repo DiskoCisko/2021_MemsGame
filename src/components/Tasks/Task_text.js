@@ -7,7 +7,7 @@ const Task_text = ({task}) => {
     <h3>{task.title}</h3>
         {task.img&&<img className='text__img' src={task.img}/>}
         <p>
-            {task.task}
+            {task.text}
         </p>
     </div>
 }

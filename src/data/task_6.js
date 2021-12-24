@@ -2,7 +2,7 @@ import React from 'react';
 import { quize, images } from './task_type';
 const task_6 = [
     {
-        task: "Долгожданный альбом. Новый альбом Оксимирона богат неймдропингом. Докажи, что ты разбираешься. Расшифруй о чем сказал автор и получи по баллу за каждый угаданный вариант (варианты в отдельном файле). ",
+        text: "Долгожданный альбом. Новый альбом Оксимирона богат неймдропингом. Докажи, что ты разбираешься. Расшифруй о чем сказал автор и получи по баллу за каждый угаданный вариант (варианты в отдельном файле). ",
         type: quize,
         img: 'https://cdn.spbdnevnik.ru/uploads/block/image/589666/__medium_%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-11-01%20%D0%B2%2012.41.23.png.jpg',
         qs: [
@@ -69,63 +69,63 @@ const task_6 = [
         ]
     },
     {
-        task: "Инагент: перед каждой фразой в течение круга произносить «Данное сообщение (материал) создано и (или) распространено иностранным средством массовой информации, выполняющим функции иностранного агента, и (или) российским юридическим лицом, выполняющим функции иностранного агента»",
+        text: "Инагент: перед каждой фразой в течение круга произносить «Данное сообщение (материал) создано и (или) распространено иностранным средством массовой информации, выполняющим функции иностранного агента, и (или) российским юридическим лицом, выполняющим функции иностранного агента»",
         img: 'https://sun9-76.userapi.com/impg/FSGOCdiXFxFJkMUNfYUufq-ZDw6RFfWXPC6Jpw/sVbkXgAohuI.jpg?size=803x459&quality=96&sign=1e41b38df60104a20c33c124527f13e7&type=album'
     },
     {
-        task: "Ребрендинг Фейсбук в Мета: смени имя во всех соц сетях",
+        text: "Ребрендинг Фейсбук в Мета: смени имя во всех соц сетях",
         img: 'https://images11.cosmopolitan.ru/upload/img_cache/bc0/bc064f29e9184584382dd5e3d20f62ac_ce_1580x1052x0x0_cropped_666x444.jpg'
     },
     {
-        task: "QR код: если у тебя есть код идёшь, если нет, возвращаешься в начало",
+        text: "QR код: если у тебя есть код идёшь, если нет, возвращаешься в начало",
         img: 'https://img.rosbalt.ru/photobank/5c/44/a8/3b/TDjX6wLnRKvB-580.jpg'
     },
     {
-        task: "Когда альбом: разместить в сторис белую крупную надпись «когда свадьба?» на черном фоне",
+        text: "Когда альбом: разместить в сторис белую крупную надпись «когда свадьба?» на черном фоне",
         img: 'https://sun9-9.userapi.com/impg/uE4BL7UdHRFlFMAmfLErFVQIlmDGy8iYiF0I5A/41ed7o-fzEI.jpg?size=687x320&quality=96&sign=af434d21e056860439ac5cb6382c3b28&type=album'
     },
     {
-        task: "На чиле: записать сторис, где ты на чиле и произносишь чуть изменённую фразу Джигана: «Пока на расслабоне, на чиле. Можно шапусик хуярить, качаться. А пока на чиле, чиле,новый год,новый год»",
+        text: "На чиле: записать сторис, где ты на чиле и произносишь чуть изменённую фразу Джигана: «Пока на расслабоне, на чиле. Можно шапусик хуярить, качаться. А пока на чиле, чиле,новый год,новый год»",
         img: 'https://i.ytimg.com/vi/HgtgivOwh94/maxresdefault.jpg'
     },
     {
-        task: "Игра в кальмара: шесть раз играешь в суефа. Сколько раз выиграешь - столько баллов",
+        text: "Игра в кальмара: шесть раз играешь в суефа. Сколько раз выиграешь - столько баллов",
         img: 'https://disgustingmen.com/wp-content/uploads/2021/10/kalmarchik-02.jpg'
     },
     {
-        task: "Роналду и кола: пока все бухают ты пьёшь воду и записываешь сторис",
+        text: "Роналду и кола: пока все бухают ты пьёшь воду и записываешь сторис",
         img: 'https://sun9-15.userapi.com/impg/asq4ZIWLjHCgXCvItLi4PGnHY67cGYoT9Q7QGA/wofSPfIIKHE.jpg?size=723x507&quality=96&sign=d21fdbcc42a404e75ea6345cf8636ece&type=album'
     },
     {
-        task: "Васерман в думе: задают любой вопрос из Своей игры. Если отвечаешь верно, то 6",
+        text: "Васерман в думе: задают любой вопрос из Своей игры. Если отвечаешь верно, то 6",
         img: 'https://memepedia.ru/wp-content/uploads/2017/08/%D0%B0%D0%BD%D0%B4%D1%80%D0%B5%D0%B9-%D0%B6%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2-%D0%BC%D0%B5%D0%BC-1.jpg'
     },
     {
-        task: "Клабхаус. Ни на что не обращай Внимание в течение раунда и веди свою комнату в оффлайне. А тему для дискуссии тебе придумают другие игроки",
+        text: "Клабхаус. Ни на что не обращай Внимание в течение раунда и веди свою комнату в оффлайне. А тему для дискуссии тебе придумают другие игроки",
         img: 'https://peopletalk.ru/wp-content/uploads/2021/02/d7966a870426f0d28e1df3c8775f7891.jpg'
     },
     {
-        task: "Bandana I. Тебе включают один трек с альбома, а ты должен угадать его название.",
+        text: "Bandana I. Тебе включают один трек с альбома, а ты должен угадать его название.",
         img: 'https://images.genius.com/240c9c48a43b211ada309a60d2e3491e.1000x1000x1.png'
     },
     {
-        task: "Pussy boy. Тебе включают один трек с альбома, а ты должен угадать его название. ",
+        text: "Pussy boy. Тебе включают один трек с альбома, а ты должен угадать его название. ",
         img: 'https://i.ytimg.com/vi/lBzQ4PjsjPE/maxresdefault.jpg'
     },
     {
-        task: "Топ года. Тебе называют три трека из топ-3 любого стриминга. Тебе надо расположить их в правильном порядке. За каждое угаданное место по 2 балла. Отдельное задание по каждому стримингу. ",
+        text: "Топ года. Тебе называют три трека из топ-3 любого стриминга. Тебе надо расположить их в правильном порядке. За каждое угаданное место по 2 балла. Отдельное задание по каждому стримингу. ",
         img: 'https://img.gazeta.ru/files3/431/12977431/RIAN_5881673.HR-pic905-895x505-287.jpg'
     },
     {
-        task: "Карпин уходи. Написать в соц сети пост с критикой сборной России по футболу. И предложить кандидатуру нового тренера. ",
+        text: "Карпин уходи. Написать в соц сети пост с критикой сборной России по футболу. И предложить кандидатуру нового тренера. ",
         img: 'https://s-cdn.sportbox.ru/images/styles/upload/fp_fotos/39/9d/54d0e8777a5c1.jpg'
     },
     {
-        task: "Губерниев против Бузовой. Выложить видео этого инцидента с подписью «И выпьем же за то, чтобы в новом году не было таких абьюзеров»",
+        text: "Губерниев против Бузовой. Выложить видео этого инцидента с подписью «И выпьем же за то, чтобы в новом году не было таких абьюзеров»",
         img: 'https://s00.yaplakal.com/pics/pics_original/6/4/3/15651346.jpg'
     },
     {
-        task: "Новый IPhone. Угадать где какой iPhone. За каждый угаданный 1 балл.",
+        text: "Новый IPhone. Угадать где какой iPhone. За каждый угаданный 1 балл.",
         type: images,
         img: [
             'data:image/jpeg;base64,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',
@@ -146,25 +146,25 @@ const task_6 = [
         
     },
     {
-        task: "Поздравь Хованского. Написать письмо на сайте «ФСИН Письмо» (Хованский Юрий Михайлович, 1990, СИЗО 1) с поздравление Юры с новым годом.  P.S. Юра просил писать ему побольше смешных историй про себя. ",
+        text: "Поздравь Хованского. Написать письмо на сайте «ФСИН Письмо» (Хованский Юрий Михайлович, 1990, СИЗО 1) с поздравление Юры с новым годом.  P.S. Юра просил писать ему побольше смешных историй про себя. ",
         img: 'https://games.mail.ru/hotbox/content_files/news/2021/07/29/c6d15bbf9d7242f9af7615828b39e193.jpg'
     },
     {
-        task: "Все на выборы. Перечисли все 5 политических партий, прошедших в ГосДуму. За каждую партию балл. Ещё один балл получишь, если ходил на выборы в сентябре. ",
+        text: "Все на выборы. Перечисли все 5 политических партий, прошедших в ГосДуму. За каждую партию балл. Ещё один балл получишь, если ходил на выборы в сентябре. ",
         img: 'https://cs5.pikabu.ru/post_img/2015/11/19/6/1447921001_1542452608.jpeg'
     },
     {
-        task: "Наши чемпионы. Перечисли хотя бы 6 олимпийских чемпионов 2021 от Команды РОК. Получи по баллу за каждого чемпиона, но не более 6 баллов. ",
+        text: "Наши чемпионы. Перечисли хотя бы 6 олимпийских чемпионов 2021 от Команды РОК. Получи по баллу за каждого чемпиона, но не более 6 баллов. ",
         img: 'https://img.championat.com/s/735x490/news/big/t/q/olimpiada-2020-v-tokio-itogovyj-medalnyj-zachyot-tablica_16284131401394918483.jpg'
     },
     {
-        task: "Цвет года. Цвет veri peri будет главным цветом 2022 года. Выбери его правильный оттенок и получи сразу 6 баллов. ",
+        text: "Цвет года. Цвет veri peri будет главным цветом 2022 года. Выбери его правильный оттенок и получи сразу 6 баллов. ",
         img: 'https://sun9-88.userapi.com/impg/DO742BAfR0rIp7KMPT3FVNGKoP8FBkc9gJWSgQ/8DmCC9qRkLY.jpg?size=1273x309&quality=96&sign=c8a29101730af72d859885a8ce2ee396&type=album',
         ans: <img src='https://kurjer.info/wp-content/uploads/2021/12/20211209_glavnyiy-cvet-2022.jpg'/>
     },
     
     {
-        task: "Долгожданный альбом. Новый альбом Оксимирона богат неймдропингом. Докажи, что ты разбираешься. Расшифруй о чем сказал автор и получи по баллу за каждый угаданный вариант (варианты в отдельном файле). ",
+        text: "Долгожданный альбом. Новый альбом Оксимирона богат неймдропингом. Докажи, что ты разбираешься. Расшифруй о чем сказал автор и получи по баллу за каждый угаданный вариант (варианты в отдельном файле). ",
         type: quize,
         img: 'https://cdn.spbdnevnik.ru/uploads/block/image/589666/__medium_%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-11-01%20%D0%B2%2012.41.23.png.jpg',
         qs: [
@@ -231,15 +231,15 @@ const task_6 = [
         ]
     },
     {
-        task: "Симптомы коронавируса. Все знают, что главный симптом коронавируса - потеря обоняния. А не болеешь ли ты случайно? Тебе предстоит угадать 6 блюд или напитков по запаху с завязанными глазами.",
+        text: "Симптомы коронавируса. Все знают, что главный симптом коронавируса - потеря обоняния. А не болеешь ли ты случайно? Тебе предстоит угадать 6 блюд или напитков по запаху с завязанными глазами.",
         img: 'https://cdn.ren.tv/cache/960x540/media/img/84/79/84794169bc0a0948c04964070aa716dedf310f16.jpg'
     },
     {
-        task: "Я все это хаваю, у меня нет выбора. Все игроки складывают в тарелку по 1 продукту или ингредиенту, а потом перемешивают. Ты должен все съесть.",
+        text: "Я все это хаваю, у меня нет выбора. Все игроки складывают в тарелку по 1 продукту или ингредиенту, а потом перемешивают. Ты должен все съесть.",
         img: 'https://memepedia.ru/wp-content/uploads/2021/11/ja-vse-eto-havaju-u-menja-net-vybora-2.jpg'
     },
     {
-        task: "Новогоднее поздравление. Все игроки пишут на листочке по одному слову и складывают их в пакет. Ты записываешь новогоднее видео-поздравление в котором упоминаешь 5 слов, вытянутых из пакета. Видео выкладываешь в любую соц сеть.",
+        text: "Новогоднее поздравление. Все игроки пишут на листочке по одному слову и складывают их в пакет. Ты записываешь новогоднее видео-поздравление в котором упоминаешь 5 слов, вытянутых из пакета. Видео выкладываешь в любую соц сеть.",
         img: 'https://static.1tv.ru/uploads/photo/image/6/big/424906_big_0bde9f9133.jpg'
     }
 ]

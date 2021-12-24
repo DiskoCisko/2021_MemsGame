@@ -10,8 +10,8 @@ const Task_3 = ({task}) => {
         return <li key={index}>{item}</li>
     })
     return <div >
-        {task.task&&<p>
-            {task.task}
+        {task.text&&<p>
+            {task.text}
         </p>}
         <div className='wrap__img'>
             {img} 

@@ -13,7 +13,7 @@ const Task_6 = ({task}) => {
     return <div className='quize'>
         <img className='quize__img' src={task.img}/>
         <p>
-            {task.task}
+            {task.text}
         </p>
         <div>
             {questions}
