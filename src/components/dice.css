@@ -1,0 +1,18 @@
+.dice {
+    text-align: center;
+    padding-top: 50px;
+}
+.dice__btn {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: #833ab4;
+    color: #fff;
+    border: 5px solid #fff;
+}
+
+.dice__btn:hover {
+    background-color: #fff;
+    color: #833ab4;
+    transition: 0.3s;
+}

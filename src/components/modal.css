@@ -26,6 +26,7 @@
     flex-grow: 0;
     padding: 10px 20px;
     border-radius: 50px;
+    text-align: left;
 }
 
 .modal__wrap {
@@ -38,7 +39,6 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    font-size: 35px;
 }
 
 .modal__shadow {
@@ -59,7 +59,7 @@
 }
 .modal__btn {
     font-weight: 300;
-    font-size: 30px;
+
     border: 2px solid #333537;;
     border-radius: 10px;
     padding: 5px 10px;

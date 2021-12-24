@@ -10,7 +10,7 @@ const Card = ({title, task, changeId, taskName, restId, id, maxId}) => {
         setIsShowModal(bool)
     }
 
-    return <div >
+    return <div className='card__wrap'>
         <button className='card' onClick={() => {
             showModal(true)
         }}>

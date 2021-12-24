@@ -5,6 +5,7 @@ button {
     outline: none;
     cursor: pointer;
     margin: 5px;
+    font-size: 30px;
 }
 
 body {
@@ -16,4 +17,5 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 30px;
 }

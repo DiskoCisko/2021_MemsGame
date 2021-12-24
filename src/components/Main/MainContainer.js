@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import {changeId, restId} from './../../reduxe/action';
 import Card from '../Card.js';
-
+import Dice from '../Dice';
 import {tasks} from '../../data/tasks';
 
 import './cards.css';
@@ -35,6 +35,7 @@ const MainContainer = ({tasksId, changeId, restId}) => {
         <div className='cards'>
                 {card}
         </div>
+        <Dice/>
     </div>
 }
 

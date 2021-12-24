@@ -1,9 +1,12 @@
+.card__wrap {
+    text-align: center;
+}
 .card {
     width: 150px;
     height: 200px;
     border-radius: 50px;
     background-color: #fff;
-    color: #333537;
+    
     font-size: 60px;
     font-weight: bold;
 }
