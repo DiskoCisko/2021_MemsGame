@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './images.css';
 
 const Task_3 = ({task}) => {
+    
     const [isShowAns, setIsShowAns] = useState(false);
     const img = task.img.map((item, index) => {
         return <img className='images__img' key={index} src={item}/>

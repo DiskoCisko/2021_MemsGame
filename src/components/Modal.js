@@ -1,13 +1,14 @@
 import React from 'react';
 import Images from './Tasks/Images';
 import Video from './Tasks/Video';
-import Victorina from './Tasks/Quize';
+import Quize from './Tasks/Quize';
 import Task_text from './Tasks/Task_text';
 import Question from './Tasks/Question';
 
 import './modal.css';
 
 import { video, singleQuize, images, quize } from '../data/task_type';
+
 const Modal = ({showModal, changeId, task, taskName, id, maxId, restId}) => {
     const hideModal = () => {
         showModal(false)
@@ -28,7 +29,7 @@ const Modal = ({showModal, changeId, task, taskName, id, maxId, restId}) => {
             />
         }
         case quize: {
-            return <Victorina 
+            return <Quize 
                 task = {task}
             />
         }
