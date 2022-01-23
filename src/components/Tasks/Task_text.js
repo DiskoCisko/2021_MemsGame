@@ -1,14 +1,22 @@
 import React from 'react';
+import { PropTypes } from 'prop-types';
+
 import './task_text.css';
 
-const Task_text = ({task}) => {
-
-    return <div className='text'>
-    <h3>{task.title}</h3>
-        {task.img&&<img className='text__img' src={task.img}/>}
-        <p>
-            {task.text}
-        </p>
+const TaskTtext = ({ task }) => {
+  return (
+    <div className="text">
+      <h3>{task.title}</h3>
+      {task.img && (
+        <img className="text__img" alt="loading..." src={task.img} />
+      )}
+      <p>{task.text}</p>
     </div>
-}
-export default Task_text;
+  );
+};
+
+TaskTtext.propTypes = {
+  task: PropTypes.object.isRequired,
+};
+
+export default TaskTtext;

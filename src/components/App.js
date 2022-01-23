@@ -1,23 +1,17 @@
-
-import React, { Component } from "react";
-import MainContainer from './Main/MainContainer.js';
+import React, { PureComponent } from 'react';
 import { Provider } from 'react-redux';
-import {store} from './../reduxe/index';
+import MainContainer from './Main/MainContainer';
+import { store } from '../reduxe/index';
 import '../styles/App.css';
 
-class App extends Component {
-
-    
-    render() {
-        return (
-            <Provider store={store}>
-                <MainContainer />
-            </Provider>
-            
-        );
-    }
+class App extends PureComponent {
+  render() {
+    return (
+      <Provider store={store}>
+        <MainContainer />
+      </Provider>
+    );
+  }
 }
-
-
 
 export default App;

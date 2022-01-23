@@ -1,24 +1,30 @@
 import React from 'react';
+import { PropTypes } from 'prop-types';
 import Question from './Question';
+
 import './quize.css';
-const Task_6 = ({task}) => {
-    const questions = task.qs.map((item, index) => {
-        return <Question
-            key={index}
-            title = {item.title}
-            text = {item.text}
-            ans = {item.ans}
-        />
-    })
-    return <div className='quize'>
-        <img className='quize__img' src={task.img}/>
-        <p>
-            {task.text}
-        </p>
-        <div>
-            {questions}
-        </div>
+
+const Task6 = ({ task }) => {
+  const questions = task.qs.map((item) => {
+    return (
+      <Question
+        key={item.title}
+        title={item.title}
+        text={item.text}
+        ans={item.ans}
+      />
+    );
+  });
+  return (
+    <div className="quize">
+      <img className="quize__img" alt="loading..." src={task.img} />
+      <p>{task.text}</p>
+      <div>{questions}</div>
     </div>
-    
-}
-export default Task_6;
+  );
+};
+
+Task6.propTypes = {
+  task: PropTypes.object.isRequired,
+};
+export default Task6;
